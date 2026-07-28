@@ -1,3 +1,3 @@
-<h1> Dotfiles </h1>
+<h1> Configs </h1>
 
-<p>My dotfiles for Arch, Hyprland, Waybar and Rofi </p>
+<p>My configs for arch,including dotfiles, ricing, scripts and bins.</p>
