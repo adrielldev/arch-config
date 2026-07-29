@@ -244,6 +244,11 @@ hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
 
+--PrintScreen
+-- Apenas Print (Tela inteira)
+hl.bind("CTRL + P", hl.dsp.exec_cmd('grim -g "$(slurp)" - | swappy -f -'))
+
+hl.bind("CTRL + SUPER + P", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
 --------------------------------
