@@ -245,10 +245,7 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = tr
 
 
 --PrintScreen
--- Apenas Print (Tela inteira)
 hl.bind("CTRL + P", hl.dsp.exec_cmd('grim -g "$(slurp)" - | swappy -f -'))
-
-hl.bind("CTRL + SUPER + P", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
 --------------------------------
